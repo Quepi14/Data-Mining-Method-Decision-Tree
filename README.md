@@ -10,11 +10,14 @@ Proyek analisis data mining untuk universitas di Indonesia menggunakan Decision 
 - Ekspor ke Google Sheets (opsional)
 
 ## Setup
-(Require Credentials.json to connect Drive and Spreadsheet)
 ### 1. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
+### Requirement File
+-credentials.json for connect to Drive and Spreadsheet
+-Ganti credentials_template.json menjadi credentials.json dan isi Client email, client id, dan private key 
+
 ### For Running Use
 
 1. Activate Virtual Env (venv)
